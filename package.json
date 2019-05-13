@@ -1,17 +1,32 @@
 {
-    "name": "express-HelloWorld",
-    "description": "Hello World ExpressJS WebService",
-    "version": "0.0.1",
-    "private": true,
-    "dependencies": {
-        "express": "4.16.2"
-    },
-    "devDependencies": {
-        "mocha": "5.0.0",
-        "unit.js": "2.0.0",
-        "supertest": "3.0.0"
-    },
-    "scripts": {
-        "test": "mocha --recursive tests --exit"
-    }
+  "name": "koenjiproject",
+  "description": "Hello World ExpressJS WebService",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.16.2"
+  },
+  "devDependencies": {
+    "mocha": "5.0.0",
+    "supertest": "3.0.0",
+    "unit.js": "^2.1.0"
+  },
+  "scripts": {
+    "test": "mocha --recursive tests --exit",
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluesDD/ProjectKoenji.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluesDD/ProjectKoenji/issues"
+  },
+  "homepage": "https://github.com/bluesDD/ProjectKoenji#readme"
 }
